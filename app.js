@@ -2,7 +2,7 @@ const dropBtn = document.querySelectorAll('.drop-container')
 const dropDown = document.querySelectorAll('.drop-content')
 const menu = document.getElementById('menu')
 const close =document.getElementById('menu-close')
-const nav = document.querySelector('.nav')
+const nav = document.querySelector('header')
 dropBtn.forEach((x ,idx) => {
     
     x.addEventListener('click',()=>{
